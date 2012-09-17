@@ -12,7 +12,7 @@ public class App
     	//Comment
         System.out.println( "Hello World from Ambient Ideas!\nHere's where I am:" );
 		try {
-			throw new ArithmeticException();
+			throw new IOException();
 		}
 		catch(Throwable t) {
 			t.printStackTrace();
